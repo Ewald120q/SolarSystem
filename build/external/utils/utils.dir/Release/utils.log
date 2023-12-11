@@ -1,0 +1,10 @@
+﻿  Building Custom Rule C:/Users/ewald/Desktop/cg-solar-system/external/utils/CMakeLists.txt
+  Window.cpp
+  glfw_window.cpp
+  glmath.cpp
+  mesh.cpp
+  shader.cpp
+  sphere.cpp
+  texture.cpp
+  Code wird generiert...
+  utils.vcxproj -> C:\Users\ewald\Desktop\cg-solar-system\build\Release\utils.lib

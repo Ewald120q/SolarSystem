@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/Users/ewald/Desktop/cg-solar-system/external/stb_image/CMakeLists.txt
+  stb_image.cpp
+  stb_image_write.cpp
+  Code wird generiert...
+  stb_image.vcxproj -> C:\Users\ewald\Desktop\cg-solar-system\build\Release\stb_image.lib

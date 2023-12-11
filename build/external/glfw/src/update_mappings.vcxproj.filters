@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ewald\Desktop\cg-solar-system\build\CMakeFiles\d78fe2beb557726745ee631bd2757b78\update_mappings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ewald\Desktop\cg-solar-system\external\glfw\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\ewald\Desktop\cg-solar-system\external\glfw\src\mappings.h.in">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Users\ewald\Desktop\cg-solar-system\external\glfw\CMake\GenerateMappings.cmake" />
+    <None Include="C:\Users\ewald\Desktop\cg-solar-system\build\external\glfw\src\CMakeFiles\update_mappings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FF6DD48A-0A20-3FE8-A038-FAFC2D76CACF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{FF2CDC50-CDD6-36E8-B3B1-66A28171AEB6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
