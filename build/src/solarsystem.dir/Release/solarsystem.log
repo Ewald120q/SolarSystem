@@ -1,2 +1,7 @@
-﻿  solar_viewer.cpp
+﻿  Building Custom Rule C:/Users/ewald/Desktop/cg-solar-system/src/CMakeLists.txt
+  billboard.cpp
+  main.cpp
+  solar_viewer.cpp
+  space_object.cpp
+  Code wird generiert...
   solarsystem.vcxproj -> C:\Users\ewald\Desktop\cg-solar-system\build\Release\solarsystem.exe

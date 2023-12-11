@@ -23,36 +23,36 @@ events:
       
       The output was:
       0
-      MSBuild-Version 17.7.2+d6990bcfa für .NET Framework
-      Der Buildvorgang wurde am 23.11.2023 13:30:18 gestartet.
+      Microsoft (R)-Build-Engine, Version 16.11.2+f32259642 f\xc2\x81r .NET Framework
+      Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
       
-      Projekt "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\3.28.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" auf Knoten "1" (Standardziele).
+      Der Buildvorgang wurde am 11.12.2023 13:41:58 gestartet.
+      Projekt "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\3.28.0\\CompilerIdC\\CompilerIdC.vcxproj" auf Knoten "1" (Standardziele).
       PrepareForBuild:
         Das Verzeichnis "Debug\\" wird erstellt.
         Das Verzeichnis "Debug\\CompilerIdC.tlog\\" wird erstellt.
       InitializeBuildStatus:
         "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
-        Aktualisieren des Timestamps von "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
       ClCompile:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
         CMakeCCompilerId.c
       Link:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\3.28.0-rc2\\CompilerIdC\\CompilerIdC.exe
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\3.28.0\\CompilerIdC\\CompilerIdC.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
-        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
       FinalizeBuildStatus:
-        Die Datei "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" wird gelöscht.
+        Die Datei "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" wird gel”scht.
         Aktualisieren des Timestamps von "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Die Erstellung von Projekt "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\3.28.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" ist abgeschlossen (Standardziele).
+      Die Erstellung von Projekt "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\3.28.0\\CompilerIdC\\CompilerIdC.vcxproj" ist abgeschlossen (Standardziele).
       
-      Der Buildvorgang wurde erfolgreich ausgeführt.
+      Der Buildvorgang wurde erfolgreich ausgef\xc2\x81hrt.
           0 Warnung(en)
           0 Fehler
       
-      Verstrichene Zeit 00:00:01.36
+      Verstrichene Zeit 00:00:00.89
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -60,7 +60,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/3.28.0-rc2/CompilerIdC/CompilerIdC.exe
+        C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/3.28.0/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "message-v1"
@@ -77,36 +77,36 @@ events:
       
       The output was:
       0
-      MSBuild-Version 17.7.2+d6990bcfa für .NET Framework
-      Der Buildvorgang wurde am 23.11.2023 13:30:19 gestartet.
+      Microsoft (R)-Build-Engine, Version 16.11.2+f32259642 f\xc2\x81r .NET Framework
+      Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
       
-      Projekt "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\3.28.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" auf Knoten "1" (Standardziele).
+      Der Buildvorgang wurde am 11.12.2023 13:41:59 gestartet.
+      Projekt "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\3.28.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" auf Knoten "1" (Standardziele).
       PrepareForBuild:
         Das Verzeichnis "Debug\\" wird erstellt.
         Das Verzeichnis "Debug\\CompilerIdCXX.tlog\\" wird erstellt.
       InitializeBuildStatus:
         "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
-        Aktualisieren des Timestamps von "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
       ClCompile:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
         CMakeCXXCompilerId.cpp
       Link:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\3.28.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\3.28.0\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
-        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
       FinalizeBuildStatus:
-        Die Datei "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" wird gelöscht.
+        Die Datei "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" wird gel”scht.
         Aktualisieren des Timestamps von "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Die Erstellung von Projekt "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\3.28.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ist abgeschlossen (Standardziele).
+      Die Erstellung von Projekt "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\3.28.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ist abgeschlossen (Standardziele).
       
-      Der Buildvorgang wurde erfolgreich ausgeführt.
+      Der Buildvorgang wurde erfolgreich ausgef\xc2\x81hrt.
           0 Warnung(en)
           0 Fehler
       
-      Verstrichene Zeit 00:00:00.93
+      Verstrichene Zeit 00:00:00.62
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -114,7 +114,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/3.28.0-rc2/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/3.28.0/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "try_compile-v1"
@@ -125,47 +125,47 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-1p8zzd"
-      binary: "C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-1p8zzd"
+      source: "C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-gj52xh"
+      binary: "C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-gj52xh"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-1p8zzd'
+        Change Dir: 'C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-gj52xh'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9d063.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild-Version 17.7.2+d6990bcfa für .NET Framework
-        Der Buildvorgang wurde am 23.11.2023 13:30:21 gestartet.
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_6d928.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R)-Build-Engine, Version 16.11.2+f32259642 f\xc2\x81r .NET Framework
+        Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
         
-        Projekt "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1p8zzd\\cmTC_9d063.vcxproj" auf Knoten "1" (Standardziele).
+        Der Buildvorgang wurde am 11.12.2023 13:42:00 gestartet.
+        Projekt "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gj52xh\\cmTC_6d928.vcxproj" auf Knoten "1" (Standardziele).
         PrepareForBuild:
-          Das Verzeichnis "cmTC_9d063.dir\\Debug\\" wird erstellt.
-          Das Verzeichnis "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1p8zzd\\Debug\\" wird erstellt.
-          Das Verzeichnis "cmTC_9d063.dir\\Debug\\cmTC_9d063.tlog\\" wird erstellt.
+          Das Verzeichnis "cmTC_6d928.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gj52xh\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_6d928.dir\\Debug\\cmTC_6d928.tlog\\" wird erstellt.
         InitializeBuildStatus:
-          "cmTC_9d063.dir\\Debug\\cmTC_9d063.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
-          Aktualisieren des Timestamps von "cmTC_9d063.dir\\Debug\\cmTC_9d063.tlog\\unsuccessfulbuild".
+          "cmTC_6d928.dir\\Debug\\cmTC_6d928.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9d063.dir\\Debug\\\\" /Fd"cmTC_9d063.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
-          Microsoft (R) C/C++-Optimierungscompiler Version 19.37.32825 für x64
-          CMakeCCompilerABI.c
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6d928.dir\\Debug\\\\" /Fd"cmTC_6d928.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++-Optimierungscompiler Version 19.29.30148 f\xc2\x81r x64
           Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9d063.dir\\Debug\\\\" /Fd"cmTC_9d063.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6d928.dir\\Debug\\\\" /Fd"cmTC_6d928.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1p8zzd\\Debug\\cmTC_9d063.exe" /INCREMENTAL /ILK:"cmTC_9d063.dir\\Debug\\cmTC_9d063.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-1p8zzd/Debug/cmTC_9d063.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-1p8zzd/Debug/cmTC_9d063.lib" /MACHINE:X64  /machine:x64 cmTC_9d063.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_9d063.vcxproj -> C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1p8zzd\\Debug\\cmTC_9d063.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gj52xh\\Debug\\cmTC_6d928.exe" /INCREMENTAL /ILK:"cmTC_6d928.dir\\Debug\\cmTC_6d928.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-gj52xh/Debug/cmTC_6d928.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-gj52xh/Debug/cmTC_6d928.lib" /MACHINE:X64  /machine:x64 cmTC_6d928.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_6d928.vcxproj -> C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gj52xh\\Debug\\cmTC_6d928.exe
         FinalizeBuildStatus:
-          Die Datei "cmTC_9d063.dir\\Debug\\cmTC_9d063.tlog\\unsuccessfulbuild" wird gelöscht.
-          Aktualisieren des Timestamps von "cmTC_9d063.dir\\Debug\\cmTC_9d063.tlog\\cmTC_9d063.lastbuildstate".
-        Die Erstellung von Projekt "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1p8zzd\\cmTC_9d063.vcxproj" ist abgeschlossen (Standardziele).
+          Die Datei "cmTC_6d928.dir\\Debug\\cmTC_6d928.tlog\\unsuccessfulbuild" wird gel”scht.
+          Aktualisieren des Timestamps von "cmTC_6d928.dir\\Debug\\cmTC_6d928.tlog\\cmTC_6d928.lastbuildstate".
+        Die Erstellung von Projekt "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gj52xh\\cmTC_6d928.vcxproj" ist abgeschlossen (Standardziele).
         
-        Der Buildvorgang wurde erfolgreich ausgeführt.
+        Der Buildvorgang wurde erfolgreich ausgef\xc2\x81hrt.
             0 Warnung(en)
             0 Fehler
         
-        Verstrichene Zeit 00:00:00.85
+        Verstrichene Zeit 00:00:00.58
         
       exitCode: 0
   -
@@ -177,47 +177,47 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-bucvkv"
-      binary: "C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-bucvkv"
+      source: "C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-z1qqy1"
+      binary: "C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-z1qqy1"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-bucvkv'
+        Change Dir: 'C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-z1qqy1'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_37b6f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild-Version 17.7.2+d6990bcfa für .NET Framework
-        Der Buildvorgang wurde am 23.11.2023 13:30:22 gestartet.
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_e796e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R)-Build-Engine, Version 16.11.2+f32259642 f\xc2\x81r .NET Framework
+        Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
         
-        Projekt "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bucvkv\\cmTC_37b6f.vcxproj" auf Knoten "1" (Standardziele).
+        Der Buildvorgang wurde am 11.12.2023 13:42:01 gestartet.
+        Projekt "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1qqy1\\cmTC_e796e.vcxproj" auf Knoten "1" (Standardziele).
         PrepareForBuild:
-          Das Verzeichnis "cmTC_37b6f.dir\\Debug\\" wird erstellt.
-          Das Verzeichnis "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bucvkv\\Debug\\" wird erstellt.
-          Das Verzeichnis "cmTC_37b6f.dir\\Debug\\cmTC_37b6f.tlog\\" wird erstellt.
+          Das Verzeichnis "cmTC_e796e.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1qqy1\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_e796e.dir\\Debug\\cmTC_e796e.tlog\\" wird erstellt.
         InitializeBuildStatus:
-          "cmTC_37b6f.dir\\Debug\\cmTC_37b6f.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
-          Aktualisieren des Timestamps von "cmTC_37b6f.dir\\Debug\\cmTC_37b6f.tlog\\unsuccessfulbuild".
+          "cmTC_e796e.dir\\Debug\\cmTC_e796e.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_37b6f.dir\\Debug\\\\" /Fd"cmTC_37b6f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
-          Microsoft (R) C/C++-Optimierungscompiler Version 19.37.32825 für x64
-          CMakeCXXCompilerABI.cpp
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e796e.dir\\Debug\\\\" /Fd"cmTC_e796e.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++-Optimierungscompiler Version 19.29.30148 f\xc2\x81r x64
           Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_37b6f.dir\\Debug\\\\" /Fd"cmTC_37b6f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e796e.dir\\Debug\\\\" /Fd"cmTC_e796e.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bucvkv\\Debug\\cmTC_37b6f.exe" /INCREMENTAL /ILK:"cmTC_37b6f.dir\\Debug\\cmTC_37b6f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-bucvkv/Debug/cmTC_37b6f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-bucvkv/Debug/cmTC_37b6f.lib" /MACHINE:X64  /machine:x64 cmTC_37b6f.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_37b6f.vcxproj -> C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bucvkv\\Debug\\cmTC_37b6f.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1qqy1\\Debug\\cmTC_e796e.exe" /INCREMENTAL /ILK:"cmTC_e796e.dir\\Debug\\cmTC_e796e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-z1qqy1/Debug/cmTC_e796e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-z1qqy1/Debug/cmTC_e796e.lib" /MACHINE:X64  /machine:x64 cmTC_e796e.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_e796e.vcxproj -> C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1qqy1\\Debug\\cmTC_e796e.exe
         FinalizeBuildStatus:
-          Die Datei "cmTC_37b6f.dir\\Debug\\cmTC_37b6f.tlog\\unsuccessfulbuild" wird gelöscht.
-          Aktualisieren des Timestamps von "cmTC_37b6f.dir\\Debug\\cmTC_37b6f.tlog\\cmTC_37b6f.lastbuildstate".
-        Die Erstellung von Projekt "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bucvkv\\cmTC_37b6f.vcxproj" ist abgeschlossen (Standardziele).
+          Die Datei "cmTC_e796e.dir\\Debug\\cmTC_e796e.tlog\\unsuccessfulbuild" wird gel”scht.
+          Aktualisieren des Timestamps von "cmTC_e796e.dir\\Debug\\cmTC_e796e.tlog\\cmTC_e796e.lastbuildstate".
+        Die Erstellung von Projekt "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-z1qqy1\\cmTC_e796e.vcxproj" ist abgeschlossen (Standardziele).
         
-        Der Buildvorgang wurde erfolgreich ausgeführt.
+        Der Buildvorgang wurde erfolgreich ausgef\xc2\x81hrt.
             0 Warnung(en)
             0 Fehler
         
-        Verstrichene Zeit 00:00:00.80
+        Verstrichene Zeit 00:00:00.65
         
       exitCode: 0
   -
@@ -231,8 +231,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-544s2i"
-      binary: "C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-544s2i"
+      source: "C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-8lzdit"
+      binary: "C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-8lzdit"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -242,39 +242,39 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-544s2i'
+        Change Dir: 'C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-8lzdit'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e5f54.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild-Version 17.7.2+d6990bcfa für .NET Framework
-        Der Buildvorgang wurde am 23.11.2023 13:30:24 gestartet.
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_2d9de.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R)-Build-Engine, Version 16.11.2+f32259642 f\xc2\x81r .NET Framework
+        Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
         
-        Projekt "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-544s2i\\cmTC_e5f54.vcxproj" auf Knoten "1" (Standardziele).
+        Der Buildvorgang wurde am 11.12.2023 13:42:02 gestartet.
+        Projekt "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8lzdit\\cmTC_2d9de.vcxproj" auf Knoten "1" (Standardziele).
         PrepareForBuild:
-          Das Verzeichnis "cmTC_e5f54.dir\\Debug\\" wird erstellt.
-          Das Verzeichnis "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-544s2i\\Debug\\" wird erstellt.
-          Das Verzeichnis "cmTC_e5f54.dir\\Debug\\cmTC_e5f54.tlog\\" wird erstellt.
+          Das Verzeichnis "cmTC_2d9de.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8lzdit\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_2d9de.dir\\Debug\\cmTC_2d9de.tlog\\" wird erstellt.
         InitializeBuildStatus:
-          "cmTC_e5f54.dir\\Debug\\cmTC_e5f54.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
-          Aktualisieren des Timestamps von "cmTC_e5f54.dir\\Debug\\cmTC_e5f54.tlog\\unsuccessfulbuild".
+          "cmTC_2d9de.dir\\Debug\\cmTC_2d9de.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e5f54.dir\\Debug\\\\" /Fd"cmTC_e5f54.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-544s2i\\src.c"
-          Microsoft (R) C/C++-Optimierungscompiler Version 19.37.32825 für x64
-          src.c
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2d9de.dir\\Debug\\\\" /Fd"cmTC_2d9de.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8lzdit\\src.c"
+          Microsoft (R) C/C++-Optimierungscompiler Version 19.29.30148 f\xc2\x81r x64
           Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e5f54.dir\\Debug\\\\" /Fd"cmTC_e5f54.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-544s2i\\src.c"
-        C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-544s2i\\src.c(1,10): fatal  error C1083: Datei (Include) kann nicht geöffnet werden: "pthread.h": No such file or directory [C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-544s2i\\cmTC_e5f54.vcxproj]
-        Die Erstellung des Projekts "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-544s2i\\cmTC_e5f54.vcxproj" ist abgeschlossen (Standardziele) -- FEHLER.
+          src.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2d9de.dir\\Debug\\\\" /Fd"cmTC_2d9de.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8lzdit\\src.c"
+        C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8lzdit\\src.c(1,10): fatal error C1083: Datei (Include) kann nicht ge”ffnet werden: "pthread.h": No such file or directory [C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8lzdit\\cmTC_2d9de.vcxproj]
+        Die Erstellung des Projekts "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8lzdit\\cmTC_2d9de.vcxproj" ist abgeschlossen (Standardziele) -- FEHLER.
         
         Fehler beim Buildvorgang.
         
-        "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-544s2i\\cmTC_e5f54.vcxproj" (Standardziel) (1) ->
+        "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8lzdit\\cmTC_2d9de.vcxproj" (Standardziel) (1) ->
         (ClCompile Ziel) -> 
-          C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-544s2i\\src.c(1,10): fatal  error C1083: Datei (Include) kann nicht geöffnet werden: "pthread.h": No such file or directory [C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-544s2i\\cmTC_e5f54.vcxproj]
+          C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8lzdit\\src.c(1,10): fatal error C1083: Datei (Include) kann nicht ge”ffnet werden: "pthread.h": No such file or directory [C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8lzdit\\cmTC_2d9de.vcxproj]
         
             0 Warnung(en)
             1 Fehler
         
-        Verstrichene Zeit 00:00:00.60
+        Verstrichene Zeit 00:00:00.41
         
       exitCode: 1
   -
@@ -287,8 +287,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-9t5toh"
-      binary: "C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-9t5toh"
+      source: "C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-kqfwz1"
+      binary: "C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-kqfwz1"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -298,41 +298,41 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-9t5toh'
+        Change Dir: 'C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-kqfwz1'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6c305.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild-Version 17.7.2+d6990bcfa für .NET Framework
-        Der Buildvorgang wurde am 23.11.2023 13:30:24 gestartet.
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_5fe61.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R)-Build-Engine, Version 16.11.2+f32259642 f\xc2\x81r .NET Framework
+        Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
         
-        Projekt "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9t5toh\\cmTC_6c305.vcxproj" auf Knoten "1" (Standardziele).
+        Der Buildvorgang wurde am 11.12.2023 13:42:03 gestartet.
+        Projekt "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kqfwz1\\cmTC_5fe61.vcxproj" auf Knoten "1" (Standardziele).
         PrepareForBuild:
-          Das Verzeichnis "cmTC_6c305.dir\\Debug\\" wird erstellt.
-          Das Verzeichnis "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9t5toh\\Debug\\" wird erstellt.
-          Das Verzeichnis "cmTC_6c305.dir\\Debug\\cmTC_6c305.tlog\\" wird erstellt.
+          Das Verzeichnis "cmTC_5fe61.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kqfwz1\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_5fe61.dir\\Debug\\cmTC_5fe61.tlog\\" wird erstellt.
         InitializeBuildStatus:
-          "cmTC_6c305.dir\\Debug\\cmTC_6c305.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
-          Aktualisieren des Timestamps von "cmTC_6c305.dir\\Debug\\cmTC_6c305.tlog\\unsuccessfulbuild".
+          "cmTC_5fe61.dir\\Debug\\cmTC_5fe61.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6c305.dir\\Debug\\\\" /Fd"cmTC_6c305.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9t5toh\\CheckFunctionExists.c"
-          Microsoft (R) C/C++-Optimierungscompiler Version 19.37.32825 für x64
-          CheckFunctionExists.c
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5fe61.dir\\Debug\\\\" /Fd"cmTC_5fe61.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kqfwz1\\CheckFunctionExists.c"
+          Microsoft (R) C/C++-Optimierungscompiler Version 19.29.30148 f\xc2\x81r x64
           Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6c305.dir\\Debug\\\\" /Fd"cmTC_6c305.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9t5toh\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5fe61.dir\\Debug\\\\" /Fd"cmTC_5fe61.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kqfwz1\\CheckFunctionExists.c"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9t5toh\\Debug\\cmTC_6c305.exe" /INCREMENTAL /ILK:"cmTC_6c305.dir\\Debug\\cmTC_6c305.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-9t5toh/Debug/cmTC_6c305.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-9t5toh/Debug/cmTC_6c305.lib" /MACHINE:X64  /machine:x64 cmTC_6c305.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: Datei "pthreads.lib" kann nicht geöffnet werden. [C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9t5toh\\cmTC_6c305.vcxproj]
-        Die Erstellung des Projekts "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9t5toh\\cmTC_6c305.vcxproj" ist abgeschlossen (Standardziele) -- FEHLER.
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kqfwz1\\Debug\\cmTC_5fe61.exe" /INCREMENTAL /ILK:"cmTC_5fe61.dir\\Debug\\cmTC_5fe61.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-kqfwz1/Debug/cmTC_5fe61.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-kqfwz1/Debug/cmTC_5fe61.lib" /MACHINE:X64  /machine:x64 cmTC_5fe61.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: Datei "pthreads.lib" kann nicht ge”ffnet werden. [C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kqfwz1\\cmTC_5fe61.vcxproj]
+        Die Erstellung des Projekts "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kqfwz1\\cmTC_5fe61.vcxproj" ist abgeschlossen (Standardziele) -- FEHLER.
         
         Fehler beim Buildvorgang.
         
-        "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9t5toh\\cmTC_6c305.vcxproj" (Standardziel) (1) ->
+        "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kqfwz1\\cmTC_5fe61.vcxproj" (Standardziel) (1) ->
         (Link Ziel) -> 
-          LINK : fatal error LNK1104: Datei "pthreads.lib" kann nicht geöffnet werden. [C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9t5toh\\cmTC_6c305.vcxproj]
+          LINK : fatal error LNK1104: Datei "pthreads.lib" kann nicht ge”ffnet werden. [C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kqfwz1\\cmTC_5fe61.vcxproj]
         
             0 Warnung(en)
             1 Fehler
         
-        Verstrichene Zeit 00:00:00.66
+        Verstrichene Zeit 00:00:00.46
         
       exitCode: 1
   -
@@ -345,8 +345,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-zh8cid"
-      binary: "C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-zh8cid"
+      source: "C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-y98h2j"
+      binary: "C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-y98h2j"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -356,41 +356,41 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-zh8cid'
+        Change Dir: 'C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-y98h2j'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_86fec.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild-Version 17.7.2+d6990bcfa für .NET Framework
-        Der Buildvorgang wurde am 23.11.2023 13:30:25 gestartet.
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_adc16.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R)-Build-Engine, Version 16.11.2+f32259642 f\xc2\x81r .NET Framework
+        Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
         
-        Projekt "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zh8cid\\cmTC_86fec.vcxproj" auf Knoten "1" (Standardziele).
+        Der Buildvorgang wurde am 11.12.2023 13:42:03 gestartet.
+        Projekt "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y98h2j\\cmTC_adc16.vcxproj" auf Knoten "1" (Standardziele).
         PrepareForBuild:
-          Das Verzeichnis "cmTC_86fec.dir\\Debug\\" wird erstellt.
-          Das Verzeichnis "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zh8cid\\Debug\\" wird erstellt.
-          Das Verzeichnis "cmTC_86fec.dir\\Debug\\cmTC_86fec.tlog\\" wird erstellt.
+          Das Verzeichnis "cmTC_adc16.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y98h2j\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_adc16.dir\\Debug\\cmTC_adc16.tlog\\" wird erstellt.
         InitializeBuildStatus:
-          "cmTC_86fec.dir\\Debug\\cmTC_86fec.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
-          Aktualisieren des Timestamps von "cmTC_86fec.dir\\Debug\\cmTC_86fec.tlog\\unsuccessfulbuild".
+          "cmTC_adc16.dir\\Debug\\cmTC_adc16.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_86fec.dir\\Debug\\\\" /Fd"cmTC_86fec.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zh8cid\\CheckFunctionExists.c"
-          Microsoft (R) C/C++-Optimierungscompiler Version 19.37.32825 für x64
-          CheckFunctionExists.c
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_adc16.dir\\Debug\\\\" /Fd"cmTC_adc16.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y98h2j\\CheckFunctionExists.c"
+          Microsoft (R) C/C++-Optimierungscompiler Version 19.29.30148 f\xc2\x81r x64
           Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_86fec.dir\\Debug\\\\" /Fd"cmTC_86fec.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zh8cid\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_adc16.dir\\Debug\\\\" /Fd"cmTC_adc16.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y98h2j\\CheckFunctionExists.c"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zh8cid\\Debug\\cmTC_86fec.exe" /INCREMENTAL /ILK:"cmTC_86fec.dir\\Debug\\cmTC_86fec.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-zh8cid/Debug/cmTC_86fec.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-zh8cid/Debug/cmTC_86fec.lib" /MACHINE:X64  /machine:x64 cmTC_86fec.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: Datei "pthread.lib" kann nicht geöffnet werden. [C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zh8cid\\cmTC_86fec.vcxproj]
-        Die Erstellung des Projekts "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zh8cid\\cmTC_86fec.vcxproj" ist abgeschlossen (Standardziele) -- FEHLER.
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y98h2j\\Debug\\cmTC_adc16.exe" /INCREMENTAL /ILK:"cmTC_adc16.dir\\Debug\\cmTC_adc16.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-y98h2j/Debug/cmTC_adc16.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ewald/Desktop/cg-solar-system/build/CMakeFiles/CMakeScratch/TryCompile-y98h2j/Debug/cmTC_adc16.lib" /MACHINE:X64  /machine:x64 cmTC_adc16.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: Datei "pthread.lib" kann nicht ge”ffnet werden. [C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y98h2j\\cmTC_adc16.vcxproj]
+        Die Erstellung des Projekts "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y98h2j\\cmTC_adc16.vcxproj" ist abgeschlossen (Standardziele) -- FEHLER.
         
         Fehler beim Buildvorgang.
         
-        "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zh8cid\\cmTC_86fec.vcxproj" (Standardziel) (1) ->
+        "C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y98h2j\\cmTC_adc16.vcxproj" (Standardziel) (1) ->
         (Link Ziel) -> 
-          LINK : fatal error LNK1104: Datei "pthread.lib" kann nicht geöffnet werden. [C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zh8cid\\cmTC_86fec.vcxproj]
+          LINK : fatal error LNK1104: Datei "pthread.lib" kann nicht ge”ffnet werden. [C:\\Users\\ewald\\Desktop\\cg-solar-system\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y98h2j\\cmTC_adc16.vcxproj]
         
             0 Warnung(en)
             1 Fehler
         
-        Verstrichene Zeit 00:00:00.55
+        Verstrichene Zeit 00:00:00.46
         
       exitCode: 1
 ...

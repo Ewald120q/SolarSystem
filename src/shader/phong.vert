@@ -16,10 +16,12 @@ uniform vec4 light_position; //in eye space coordinates already
 
 void main()
 {
+    gl_Position = modelview_projection_matrix * v_position;
     v2f_light = normalize(light_position - v_position).xyz;
     v2f_texcoord = v_texcoord;
-
-
+    vec4 vpos_eye = (modelview_matrix * v_position);
+    v2f_view = normalize(vpos_eye-v_position).xyz;
+    v2f_normal = normal_matrix * v_normal;
 
 
     /** \todo Implement the phong vertex shader.
