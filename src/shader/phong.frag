@@ -37,6 +37,8 @@ void main()
     if (greyscale) color = vec3(0.299*color.r+0.587*color.g+0.114*color.b);
 
     // add required alpha value
-    f_color = vec4(0.2*(color * dot(v2f_normal, v2f_light) + color * dot(reflect(v2f_light, v2f_normal),v2f_view)), alpha);
+    float ambient = 0.1;
+    float diffuse  = max(0.0,dot(v2f_normal, v2f_light));
+    f_color = vec4((color * (ambient + diffuse)),alpha); //+ color * dot(reflect(v2f_light, v2f_normal),v2f_view)), alpha);
 
 }

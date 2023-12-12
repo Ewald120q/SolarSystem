@@ -587,10 +587,10 @@ void Solar_viewer::draw_scene(mat4& projection, mat4& view)
     m_matrix = sun_.model_matrix_;
     mv_matrix = view * m_matrix;
     mvp_matrix = projection * mv_matrix;
-    color_shader_.use();
-    color_shader_.set_uniform("modelview_projection_matrix", mvp_matrix);
-    color_shader_.set_uniform("tex", 0);
-    color_shader_.set_uniform("greyscale", (int)greyscale_);
+    phong_shader_.use();
+    phong_shader_.set_uniform("modelview_projection_matrix", mvp_matrix);
+    phong_shader_.set_uniform("tex", 0);
+    phong_shader_.set_uniform("greyscale", (int)greyscale_);
     sun_.texture_.bind();
     unit_sphere_mesh_.draw();
 
@@ -601,7 +601,7 @@ void Solar_viewer::draw_scene(mat4& projection, mat4& view)
         mv_matrix = view * m_matrix;
         mvp_matrix = projection * mv_matrix;
 
-        color_shader_.set_uniform("modelview_projection_matrix", mvp_matrix);
+        phong_shader_.set_uniform("modelview_projection_matrix", mvp_matrix);
         planet->texture_.bind();
         unit_sphere_mesh_.draw();
     }
